@@ -5,7 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:screenOrientation="portrait"
+        tools:context="com.tencent.open.agent.AgentActivity">
     <WebView
             android:layout_width="409dp"
             android:layout_height="486dp"
@@ -16,7 +17,7 @@
     <EditText
             android:layout_width="394dp"
             android:layout_height="103dp"
-            android:inputType="text"
+            android:inputType="textMultiLine"
             android:ems="10"
             android:id="@+id/editTextTextPersonName3"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"

@@ -2,7 +2,6 @@ package com.tencent.mobileqq;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.preference.EditTextPreference;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
